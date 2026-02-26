@@ -1,0 +1,41 @@
+.vermelho {
+   background-color: red; 
+}
+.verde {
+   background-color: green; 
+}
+.azul {
+   background-color: blue; 
+}
+.azul, .verde, .vermelho {
+   padding: 20px;
+    color: rgb(236, 233, 233);
+}
+.container-basico {
+    display: flex;
+    background-color: rgb(14, 13, 13);
+    padding: 20px;
+    justify-content: space-between; /* item nas pontas e um no meio */
+    /* gap não é necessário com space-between, mas você pode ajustar se quiser espaçamento extra */
+}
+.container-justifly{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(2, 2, 2);
+    padding: 20px;
+    justify-content: space-evenly;
+   
+}
+.container-justifly-column div{
+width: 100px;
+
+}
+
+.container-justifly-column{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(15, 13, 13);
+    padding: 70px;
+    justify-content: space-evenly;
+   height: 800px;
+}
