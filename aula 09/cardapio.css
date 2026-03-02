@@ -70,6 +70,7 @@ h2 {
 .btn{
     width: 150px;
     background-color: #ffae00;
+    padding: 20px;
     border: none;
     border-radius: 10px;
     color: #ffff;
@@ -78,4 +79,5 @@ h2 {
     background-color: #ff8c00;
     cursor: pointer;
     font-weight: bolder;
+    
 }
